@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(51, 136, 122);
+    font-family: monospace;
+}
+
+h1 {
+    text-align: left;
+    font-size: 50px;
+    font-weight: bolder;
+}
+table {
+    margin: 40px;
+    padding: 20px;  
+}
+
+tr {
+    padding: 20px;
+}
+
+td {
+    padding: 12px;
+    border: 2px solid white;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.blank {
+    border:none;
+    background-color:initial;
+    white-space: normal;
+    cursor:default;
+}
+
+.nao_metais {
+    background-color: rgba(168,201,0, 0.8);
+}
+.nao_metais:hover {
+    background-color: rgba(168,201,0, 0.3);
+}
+
+.metais_alcalinos {
+   background-color: rgba(227,151,0,0.8);
+}
+.metais_alcalinos:hover {
+   background-color: rgba(227,151,0,0.3);
+}
+
+.terrosos {
+    background-color: rgba(227, 227, 1, 0.8);
+}
+.terrosos:hover {
+    background-color: rgba(227, 227, 1, 0.3);
+}
+
+.transicao {
+    background-color: rgba(255,128,128, 0.8);
+}
+.transicao:hover {
+    background-color: rgba(255,128,128, 0.3);
+}
+
+.semi_metais {
+    background-color: rgba(0,176,176, 0.8);
+}
+.semi_metais:hover {
+    background-color: rgba(0,176,176, 0.3);
+}
+
+.halogenios {
+  background-color: rgba(0,195,235, 0.8);
+}
+.halogenios:hover {
+  background-color: rgba(0,195,235, 0.3);
+}
+
+.gases_nobres {
+   background-color: rgba(111, 159, 184, 0.8)
+}
+.gases_nobres:hover {
+   background-color: rgba(25, 112, 156, 0.3)
+}
+
+.outros {
+    background-color: rgb(103, 158, 175,0.8);
+}
+.outros:hover {
+    background-color: rgb(103, 158, 175,0.3);
+}
+
+.lantanideos {
+    background-color: rgba(58, 163, 184, 0.8);
+}
+.lantanideos:hover {
+    background-color: rgba(153,238,255, 0.3);
+}
+
+.actinidios {
+    background-color: rgba(221,153,255,0.8);
+}
+.actinidios:hover {
+    background-color: rgba(221,153,255,0.3);
+}
